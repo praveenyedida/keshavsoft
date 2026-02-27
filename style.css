@@ -1,0 +1,28 @@
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Page Header */
+.page-header {
+  height: 40vh;
+  background: linear-gradient(rgba(13,110,253,0.8), rgba(13,110,253,0.8)),
+              url("https://images.unsplash.com/photo-1522071820081-009f0129c71c");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Card Hover Effect */
+.feature-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
